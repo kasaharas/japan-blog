@@ -11,7 +11,7 @@ a {
   position: fixed;
   left: 15px;
   top: 15px;
-  width: 80px;
+  width: 200px;
   font-family: Helvetica, sans-serif; }
   .sidebar a {
     text-decoration: none; }
@@ -25,12 +25,7 @@ a {
   .sidebar .name {
     text-transform: uppercase;
     margin: 10px 0 20px 0; }
-    .sidebar .name #fname {
-      padding-left: 1px;
-      font-size: 23px;
-      letter-spacing: 5px;
-      color: black; }
-    .sidebar .name #lname {
+    .sidebar .name #name {
       font-size: 17px;
       font-weight: bold;
       letter-spacing: 1px;
@@ -59,7 +54,7 @@ a {
 
 .content {
   max-width: 650px;
-  margin-left: 110px;
+  margin-left: 230px;
   margin-right: 20px;
   margin-bottom: 50px; }
   .content h1 {
