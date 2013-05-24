@@ -3,7 +3,7 @@ layout: post
 title: "Lorem Ipsum"
 category:
 tags: []
-image: images/dandelion.jpg
+image: /images/dandelion.jpg
 description: 
   "Curabitur eget risus vel mi iaculis mattis vel et lectus. Duis tincidunt
   accumsan ornare. Aliquam erat volutpat. Maecenas porttitor ornare leo nec
