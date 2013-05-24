@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cough Cough"
-description: "Nothing is working"
+description: "No image here. Just a description! Yeah!"
 category: 
 tags: []
 ---

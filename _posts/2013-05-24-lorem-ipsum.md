@@ -1,9 +1,16 @@
 ---
 layout: post
 title: "Lorem Ipsum"
-description: ""
 category:
 tags: []
+image: images/dandelion.jpg
+description: 
+  "Curabitur eget risus vel mi iaculis mattis vel et lectus. Duis tincidunt
+  accumsan ornare. Aliquam erat volutpat. Maecenas porttitor ornare leo nec
+  congue. Vivamus sed posuere purus. Nunc dolor ligula, vehicula non eleifend eu,
+  accumsan in dolor. Donec nec velit sit amet leo blandit blandit."
+             
+             
 ---
 {% include JB/setup %}
 

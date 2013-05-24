@@ -5,18 +5,22 @@ title: "Posts"
 {% include JB/setup %}
 
 <section class="content">
-
+  
   <ul class="listing">
     {% for post in site.posts %}
     <li>
       <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-      {% if post.excerpt %}
-        {{ post.excerpt | markdownify }}
-        <p><a href="{{ BASE_PATH }}{{ post.url }}/#more" class="more-link"><span class="readmore">Read »</span></a></p>
+      {% if post.image %}
         <br/>
-      {% else %}
-        {{ post.content | mark_excerpt }}
+        <div style="float:left; padding-right:20px;">
+          <a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ BASE_PATH }}{{ post.image }}" width="200" /></a>
+        </div>
       {% endif %}
+      {% if post.description %}
+        <p>{{ post.description }}</p>
+        <br/>
+      {% endif %}
+      <div style="clear:both;"/>
     </li>
     {% endfor %}
   </ul>
