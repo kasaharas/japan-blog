@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-{% include JB/setup %}
 <head>
   <meta charset="utf-8">
   <title>
@@ -15,21 +14,21 @@
 
   <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
 
-  <link rel="stylesheet" href="{{ BASE_PATH }}/css/base.css" type="text/css" media="screen, projection" />
-  <link rel="stylesheet" href="{{ BASE_PATH }}/css/pygments.css" type="text/css" />
-  <link media="only screen and (max-device-width: 480px)" href="{{ BASE_PATH }}/css/iphone.css" type="text/css" rel="stylesheet" />
-  <link media="only screen and (device-width: 768px)" href="{{ BASE_PATH }}/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ site.JB.BASE_PATH }}/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="{{ site.JB.BASE_PATH }}/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="{{ site.JB.BASE_PATH }}/css/iphone.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="{{ site.JB.BASE_PATH }}/css/iphone.css" type="text/css" rel="stylesheet" />
   <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script type="text/javascript" src="{{ BASE_PATH }}/js/application.js"></script>
+  <script type="text/javascript" src="{{ site.JB.BASE_PATH }}/js/application.js"></script>
 </head>
 
 <body>
   <section class="sidebar">
     <a href="/">
-      <img src="{{ BASE_PATH }}/images/grads.jpg" height="175" width="175" class="avatar" />
+      <img src="{{ site.JB.BASE_PATH }}/images/grads.jpg" height="175" width="175" class="avatar" />
     </a>
 
     <section class="name">
@@ -38,13 +37,13 @@
     </section>
 
     <section class="meta">
-      <a href="https://github.com/{{ site.github }}" target="_blank"><img src="{{ BASE_PATH }}/images/github.png" /></a>
-      <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><img src="{{ BASE_PATH }}/images/twitter.png"></a>
+      <a href="https://github.com/{{ site.github }}" target="_blank"><img src="{{ site.JB.BASE_PATH }}/images/github.png" /></a>
+      <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><img src="{{ site.JB.BASE_PATH }}/images/twitter.png"></a>
     </section>
 
     <section class="sections">
       <ul>
-        <li><a href="{{ BASE_PATH }}/about.html">about</a></li>
+        <li><a href="{{ site.JB.BASE_PATH }}/about.html">about</a></li>
         <li><a href="/">posts</a></li>
       </ul>
     </section>
