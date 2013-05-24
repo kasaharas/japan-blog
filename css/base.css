@@ -97,8 +97,9 @@ a {
     padding-bottom: 5px;
     margin-bottom: 10px; }
   .content p {
-    font-size: 16px;
-    margin-top: 0;
+    color: #000000;
+    font-size: 14px;
+    margin-top: 10px;
     margin-bottom: 1.2em;
     line-height: 1.7em; }
     .content p code {
@@ -118,7 +119,7 @@ a {
     background-repeat: repeat-x;
     margin: 2em 3em; }
   .content li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     line-height: 1.4em; }
   .content blockquote {
     font-style: italic;
@@ -148,17 +149,15 @@ a {
     font-family: Helvetica, sans-serif;
     line-height: 1.6em; }
   .content .listing {
-    margin: 10px 0 0 0;
-    padding: 0;
+    padding: 10px 0 10px 0;
     font-family: Helvetica, sans-serif; }
     .content .listing ul {
       margin: 0;
       padding: 0; }
     .content .listing li {
-      font-size: 13px;
+      font-size: 18px;
       list-style: none;
-      padding: 5px 3px;
-      margin: 0;
+      padding: 0px 3px;
       color: #777777;
       border-bottom: 1px solid #eee; }
     .content .listing li span {
