@@ -110,6 +110,7 @@ a {
       border-radius: 3px;
       padding: 0px 3px; }
   .content img {
+    border-radius: 20px; 
     padding: 3px;
     max-width: 100%; }
   .content hr {
