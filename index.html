@@ -12,7 +12,7 @@ title: "Posts"
       <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
       {% if post.image %}
         <br/>
-        <div style="float:left; padding-top:10px; padding-bottom:1.2em; padding-right:20px;">
+        <div style="float:left; padding-top:10px; padding-right:20px;">
           <a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ BASE_PATH }}{{ post.image }}" height="100" /></a>
         </div>
       {% endif %}
