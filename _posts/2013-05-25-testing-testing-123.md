@@ -9,3 +9,5 @@ image: /images/dave-muscles.jpg
 {% include JB/setup %}
 
 I want to see if the image for the listing will round the corners by itself.
+
+![Testees]({{ BASE_PATH}}/images/charlie.jpg)
