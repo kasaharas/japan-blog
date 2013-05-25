@@ -5,11 +5,11 @@ title: "Our Trip to Japan"
 {% include JB/setup %}
 
 <section class="content">
-  
   <ul class="listing">
     {% for post in site.posts %}
     <li>
-      <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+      <span>{{ post.date | date: "%B %e, %Y" }}</span>
+      <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }} »</a>
       {% if post.image %}
         <br/>
         <div style="float:left; padding-top:10px; padding-right:20px;">
@@ -24,5 +24,4 @@ title: "Our Trip to Japan"
     </li>
     {% endfor %}
   </ul>
-
 </section>
