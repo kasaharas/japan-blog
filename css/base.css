@@ -115,9 +115,12 @@ a {
       border-radius: 3px;
       padding: 0px 3px; }
   .content img {
+    border: 2px solid #000000;
     border-radius: 20px; 
-    padding: 3px;
+    padding: 0px;
     max-width: 100%; }
+  .content img:hover { 
+    border: 2px solid #B00000; }
   .content hr {
     border: 0;
     height: 6px;
