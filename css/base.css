@@ -98,7 +98,7 @@ a {
     margin-bottom: 10px; }
   .content p {
     color: #000000;
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 10px;
     margin-bottom: 1.2em;
     line-height: 1.7em; }
@@ -110,7 +110,7 @@ a {
       padding: 2px 3px; }
   .content img {
     padding: 3px;
-    border: 1px solid #eeeeee;
+    /*border: 1px solid #eeeeee;*/
     max-width: 100%; }
   .content hr {
     border: 0;
@@ -155,15 +155,19 @@ a {
       margin: 0;
       padding: 0; }
     .content .listing li {
-      font-size: 18px;
+      font-size: 17px;
       list-style: none;
       padding: 0px 3px;
       color: #777777;
       border-bottom: 1px solid #eee; }
     .content .listing li span {
+      font-weight: bold;
+      letter-spacing: 2px;
       float: right; }
     .content .listing a {
-      text-decoration: none; }
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-decoration: none ; }
       .content .listing a:hover {
         color: #777777;
   .content .meta {
