@@ -26,4 +26,4 @@ Travel Itinerary
 
 
 
-![Japan Map]({{ BASE_PATH }}/images/japan_map2.png)
+![Japan Map]({{ BASE_PATH }}/images/japan_map.png)
