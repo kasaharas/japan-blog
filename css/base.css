@@ -118,7 +118,10 @@ a {
     border: 2px solid #000000;
     border-radius: 20px; 
     padding: 0px;
-    max-width: 100%; }
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 20px; }
   .content img:hover { 
     border: 2px solid #B00000; }
   .content hr {

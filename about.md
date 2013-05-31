@@ -6,7 +6,7 @@ title: "About"
 
 A Trip to Japan
 ===============
-  
+
 Hi! We're Sylvia and David. We graduated from Carnegie Mellon University this May. For
 our last summer vacation, before entering the real world, we are traveling to Japan for two
 weeks. We will be updating this blog daily (internet-permitting) with hopefully lots of
