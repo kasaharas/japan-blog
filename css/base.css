@@ -131,6 +131,7 @@ a {
     background-repeat: repeat-x;
     margin: 2em 3em; }
   .content li {
+    font-size: 15px;
     margin-bottom: 20px;
     line-height: 1.4em; }
   .content blockquote {
