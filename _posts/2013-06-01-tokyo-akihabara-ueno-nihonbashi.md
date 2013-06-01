@@ -6,9 +6,12 @@ description: "In the morning, we explore Akihabara, the Electric City and anime 
 	      near our hotel in Nihonbashi."
 category: 
 image: "/images/previews/02.jpg"
+flickr: http://www.flickr.com/photos/96692645@N03/collections/72157633844862415/
 tags: [Tokyo, Akihabara, Ueno, Nihonbashi]
 ---
 {% include JB/setup %}
+
+[Flickr Collection for Tokyo](http://www.flickr.com/photos/96692645@N03/collections/72157633844862415/)
 
 Akibahara
 ---------

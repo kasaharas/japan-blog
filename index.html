@@ -20,6 +20,10 @@ title: "Our Trip to Japan"
         <p>{{ post.description }}</p>
         <br/>
       {% endif %}
+      {% if post.flickr %}
+        <br/>
+        <a style="float:right; font-size:13px;" href="{{ post.flickr }}">Flickr Collection</a>
+      {% endif %}
       <div style="clear:both;"/>
     </li>
     {% endfor %}

@@ -124,6 +124,12 @@ a {
     margin-bottom: 20px; }
   .content img:hover { 
     border: 2px solid #B00000; }
+  .content .left {
+    float: left;
+    margin-left: 75px; }
+  .content .right {
+    float: right;
+    margin-right: 75px; }
   .content hr {
     border: 0;
     height: 6px;
