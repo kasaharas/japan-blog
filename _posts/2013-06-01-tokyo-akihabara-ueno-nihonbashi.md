@@ -17,7 +17,7 @@ Akibahara
 ---------
 
 Due to jetlag, we woke up at 6am on our first day in Japan.
-were wide awake, so we got ready for the complimentary breakfast at the hotel.
+We were wide awake, so we got ready for the complimentary breakfast at the hotel.
 The breakfast was a buffet of bread, hamburger patties, salad, and soup (meh). 
 We planned to see Akihabara today. Akihabara is known for it's anime, manga, 
 and general nerdiness as well as the Electric City. As anime fans, we were 
