@@ -155,7 +155,7 @@ a {
       color: #111;
       font-style: normal; }
   .content .byline {
-    margin-bottom: 17px;
+    margin-bottom: 3px;
     font-family: Helvetica, sans-serif;
     padding-left: 0px;
     font-size: 17px;
@@ -188,13 +188,14 @@ a {
       text-decoration: none ; }
     .content .listing a:hover {
       color: #000000; }
-    .content .listing a.flickr {
+    .content a.flickr {
       background-image: url("/images/flickr-icon.png");
       width: 32px;
-      height: 32px;
+      height: 32px; }
+    .content .listing a.flickr {
       float: right; }
     .content a.flickr:hover {
-      background-image: url("/images/flickr-icon-hover.png"); }
+      background-image: url("../images/flickr-icon-hover.png"); }
   .content .meta {
     margin: 30px 0;
     padding: 10px 0;

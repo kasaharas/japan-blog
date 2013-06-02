@@ -5,10 +5,16 @@ date: 2013-05-30
 description: "Flying from JFK Airport to Narita International Airport (Tokyo) in one 13 hour flight!"
 category: 
 image: "/images/previews/01.jpg"
+flickr: http://www.flickr.com/photos/96692645@N03/sets/72157633830497562/
 tags: [Tokyo]
 ---
 
 {% include JB/setup %}
+
+<a class="flickr" href="http://www.flickr.com/photos/96692645@N03/sets/72157633830497562/">
+<img style="float: left; margin-left: 0px; border: 0px;" src="/images/flickr-icon.png"
+title="flickr collection"/></a>
+<div style="clear: both" />
 
 Our flight departed at 1:25pm on May 29th from JFK in New York to Narita Airport in Tokyo.
 We arrived at the airport pretty early, so we ate a snack and watched the latest Game
