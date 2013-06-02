@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "From New York To Japan"
+date: 2013-05-30
 description: "Flying from JFK Airport to Narita International Airport (Tokyo) in one 13 hour flight!"
 category: 
 image: "/images/previews/01.jpg"
