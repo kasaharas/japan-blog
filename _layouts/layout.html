@@ -30,22 +30,14 @@
 
 <body>
   <section class="sidebar">
-	 <a href="{{ BASE_PATH}}/index.html">
+    <a href="{{ BASE_PATH}}/index.html">
       <img src="{{ BASE_PATH }}/images/grads-circ.jpg" height="175" width="175" class="avatar" />
     </a>
-
-  	 <section class="name">
+    
+    <section class="name">
       <span id="name">{{ site.title }}</span>
     </section>
-
     
-    <!--
-    <section class="meta">
-      <a href="https://github.com/{{ site.github }}" target="_blank"><img src="{{ BASE_PATH }}/images/github.png" /></a>
-      <a href="https://twitter.com/{{ site.twitter }}" target="_blank"><img src="{{ BASE_PATH }}/images/twitter.png"></a>
-    </section>
-    -->
-
     <section class="sections">
       <ul>
         <li><a href="{{ BASE_PATH }}/about.html">about</a></li>
@@ -53,11 +45,15 @@
         <li><a href="http://www.flickr.com/photos/96692645@N03/sets">flickr</a></li>
       </ul>
     </section>
+    
+    <section class="meta">
+      <div style="color: #ff3333; font-size: 13px; padding-top:20px;">
+	We are currently in Hakone where the internet is very slow so we won't be able to
+	upload photos to flickr for a while. Sorry!
+      </div>
+    </section>
   </section>
-
-  
-
-  {{ content }}
+    
+    {{ content }}
 </body>
-
 </html>

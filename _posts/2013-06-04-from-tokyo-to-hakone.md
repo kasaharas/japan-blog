@@ -10,11 +10,6 @@ tags: [Hakone]
 ---
 {% include JB/setup %}
 
-<div style="color: #ff3333; font-size: 13px; margin-top: 10px;">
-We are currently in Hakone where the internet is very slow so we won't be able to
-upload photos to flickr for a while. Sorry!
-</div>
-
 Leaving Tokyo
 -------------
 
