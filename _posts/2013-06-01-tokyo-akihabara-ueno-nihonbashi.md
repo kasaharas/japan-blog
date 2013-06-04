@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Tokyo: Akihabara, Ueno, Nihonbashi"
-date: 2013-05-31
 description: "In the morning, we explore Akihabara, the Electric City and anime wonderland.
 	      After eating lunch, we walk through Ueno Park. For dinner, we have dinner
 	      near our hotel in Nihonbashi."
