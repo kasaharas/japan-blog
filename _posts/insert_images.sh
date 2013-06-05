@@ -27,6 +27,11 @@ mkdir -p $DEST_DIR
 # replace image names with markdown to display images
 echo "Resizing and copying:"
 for img in $(grep $2_.*\.jpg $1); do
+    if [ ! -f $SOURCE_DIR/$img ]; then
+	echo "$SOURCE_DIR/$img does not exist. Skipping...";
+	continue
+    fi
+
     if [ -f $DEST_DIR/$img ]; then
 	echo "$DEST_DIR/$img already exists. Skipping...";
     else

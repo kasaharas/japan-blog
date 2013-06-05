@@ -5,6 +5,7 @@ date: 2013-06-02
 description: "Leaving Tokyo we catch a ride on the bullet train and head to the
               hot springs of Hakone! We turn into geishas."
 image: /images/previews/04.jpg
+flickr: http://www.flickr.com/photos/96692645@N03/sets/72157633946801377/
 category: 
 tags: [Hakone]
 ---
