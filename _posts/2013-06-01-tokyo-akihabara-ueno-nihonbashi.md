@@ -11,6 +11,11 @@ tags: [Tokyo, Akihabara, Ueno, Nihonbashi]
 ---
 {% include JB/setup %}
 
+<a class="flickr" href="http://www.flickr.com/photos/96692645@N03/collections/72157633844862415/">
+<img style="float: left; margin-left: 0px; border: 0px;" src="{{ BASE_PATH }}/images/flickr-icon.png"
+title="flickr collection"/></a>
+<div style="clear: both;" />
+
 Akibahara
 ---------
 
