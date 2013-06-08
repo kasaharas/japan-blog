@@ -4,6 +4,7 @@ title: "Hakone: Wandering Around"
 date: 2013-06-04
 description: "On our second day in Hakone we wander around near our hotel and 
               by the water at Hakone-Yumoto Station."
+image: /images/previews/06.jpg
 category: 
 tags: []
 ---
